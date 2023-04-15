@@ -18,7 +18,10 @@ const encryptedString = `FusKWTYp23VcG/qCJlIq3YTtvbiWW97YQPi+gGONvdD9YYZt8JSJOc5
 2NXT7JL5nnA0agza7Z3Wmzp4hEicx4jdJagvT1GTPsq605PMiZAnTMMICR3YLLRBpXWTuX0sRPR0CNPGg0Y0nM8qFJhEg+UrpipHY0Eu3zqA9rkebmJ4DCKIeNttp//
 PmOW5zBxT1hCcgBvVbULpUsGmPGxgtieOsHKGkaDblySP1iP8ZZi+56QL7qtnlSNlRX06KAw4dMyA0vDPxK5Qol6NKJxcaXMIUw==`; // Encrypted data
 
+// optional
+const encryptedBuffer = Buffer.from(encryptedString, 'base64');
+
 //const buffer = Buffer.from(encryptedData, 'base64');
-const decryptedString = crypto.publicDecrypt(publicKey, Buffer.from(encryptedString, "base64")).toString();
+const decryptedString = crypto.publicDecrypt(publicKey, Buffer.from(encryptedBuffer, "base64")).toString();
 
 console.log(decryptedString);
