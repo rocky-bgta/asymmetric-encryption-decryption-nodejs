@@ -15,7 +15,7 @@ var decrypted = ch.decrypt(encrypted);
 console.log(decrypted);
 
 /*
-const javaEncrypted = 'TumuCLoDRztjLS7TvKTBZTnQzkK0P437d2oXJnAvj5JBZy7XVoWENGsngdIF6xp1VezgfcOtIhd2jhnTEzxZjxGcM7vDXlcnLgfn60qFXy0JHhUCoUEM1Ubp5L1g/JthBrp+Z1SgB0JctXoBZNoNRu4GRau09jISKPhulVAheB4GDTvP5+EWO+ZLZlD7X3LyoLcO6piUDf+yiFDoJ0yYrifwv/t/8EMHIdskPSyfOWDe/KyfucaD/M0mnsSLrzcwSoFwwZfNq+h8ksuPeDz1V3Bf3XEFWAu9Biz+AvO+vNT21rboH3Y7DZbp8pjouHQ/WWcxyfJAbBEoWql1Zekejw==';
+const javaEncrypted = 'QHdt/CvNQOw/M0KUUCcZaDEFnZ7LkKTYhktUv+pXUYPOh14q4UYsD5Odz02C/p8bx8RiTfvXMQQ3xDqMiZoWgo1GMRxEqSjJxxCnZYba3E5Nt7ij3TFODIP6/V5hkRMRivLGz93YykT81B1jNtm3lBkwis6peJfLQZ5ISrmPLAFzYCYSB6Q3NiK76UnEO0dd2WueiylGnaD1EaUyZQ1sb5VPcFEw28fg6q8oridBB9ibBU8rt+tcJGlzNMtwprwPzGvpGCq7uo+EOc7dBpqdZ/UPJMlkMXiorZ2Sms6mkprYBEPOl3VKPA3DgbO7QX504a0RKAyUXJomw06ewjbxAw==';
 
 var decrypted = ch.decrypt(javaEncrypted);
 console.log(decrypted);*/
